@@ -1,16 +1,16 @@
 ---
 name: Bug report
 about: Report a bug to help us improve a game!
-title: "[BUG]"
-labels: bug
+title: "[BUG] title of report"
+labels: awaiting triage, bug
 assignees: ''
 
 ---
 
 **Game Name (check one):**
-[ ] - The Obsessive Shadow
-[ ] - OliVR
-[ ] - Other - Name: 
+- [ ] The Obsessive Shadow
+- [ ] OliVR
+- [ ] Other - Name: 
 
 **Describe the bug:**
 A clear and concise description of what the bug is.
@@ -30,7 +30,7 @@ If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. Windows, Oculus Quest 1, Oculus Quest 2]
- - Game Version [e.g. 22]
+ - Game Version [e.g. v0.0.3]
 
 **Additional context**
 Add any other context about the problem here.
