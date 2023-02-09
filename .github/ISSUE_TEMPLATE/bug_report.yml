@@ -1,5 +1,5 @@
 name: "Bug report"
-description: Report a bug to help us improve a game!
+description: "Report a bug to help us improve a game!"
 labels: ["awaiting triage"]
 title: "[BUG]: "
 body:
