@@ -1,4 +1,4 @@
-name: Bug report
+name: Bug Report
 description: Report a bug to help us improve a game!
 labels: ["awaiting triage"]
 title: "[BUG]: "
@@ -9,6 +9,7 @@ body:
         Thanks for taking the time to report a bug!
   - type: checkboxes
     id: game-name
+    required
     attributes:
       label: Game Name
       options:
