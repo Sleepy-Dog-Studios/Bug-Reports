@@ -52,7 +52,7 @@ body:
     id: consoles
     attributes:
       label: What device are you playing on?
-      multiple: true
+      multiple: false
       options:
         - Oculus Quest 1
         - Oculus Quest 2
