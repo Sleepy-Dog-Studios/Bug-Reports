@@ -16,14 +16,14 @@ body:
         - label: 'OliVr'
         - label: 'Other'
     validations:
-      required: true;
+      required: true
   - type: textarea
     id: description
     attributes:
       label: Describe the Bug
       description: Describe the bug in as much detail as possible. The more detail, the easier it will be for us to fix.
     validations:
-      required: true;
+      required: true
   - type: textarea
     id: to-reproduce
     attributes:
@@ -35,14 +35,14 @@ body:
        3. Scroll down to '....'
        4. See error
     validations:
-      required: true;
+      required: true
   - type: textarea
     id: expected-behavior
     attributes:
       label: What is the expected behavior?
       description: A clear and concise description of what you expected to happen.
     validations:
-      required: true;
+      required: true
   - type: textarea
     id: screenshots
     attributes:
@@ -57,7 +57,7 @@ body:
         - label: 'Oculus Quest 1'
         - label: 'Oculus Quest 2'
     validations:
-      required: true;
+      required: true
   - type: textarea
     id: version
     attributes:
@@ -65,7 +65,7 @@ body:
       description: You can find the ersion number underneath the title in the main menu.
       placeholder: vX.X.X
     validations:
-      required: true;
+      required: true
   - type: textarea
     id: additional-context
     attributes:
