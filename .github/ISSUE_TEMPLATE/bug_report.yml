@@ -48,17 +48,20 @@ body:
     attributes:
       label: Screenshots (if applicable)
       description: If you have any screenshots to provide us, drag and drop them here. Screenshots will help us diagnose the issue faster!
-  - type: checkboxes
-    id: platform
+  - type: dropdown
+    id: consoles
     attributes:
-      label: What platform are you playing on?
+      label: What device are you playing on?
+      multiple: true
       options:
-        - label: 'SteamVR or PCVR'
-        - label: 'Oculus Quest 1'
-        - label: 'Oculus Quest 2'
+        - Oculus Quest 1
+        - Oculus Quest 2
+        - SteamVR
+        - Sideloaded via SideQuest
+        - Other
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: version
     attributes:
       label: What is the version you are playing on?
