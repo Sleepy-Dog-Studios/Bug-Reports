@@ -1,5 +1,5 @@
-name: "Bug report"
-description: "Report a bug to help us improve a game!"
+name: Bug report
+description: Report a bug to help us improve a game!
 labels: ["awaiting triage"]
 title: "[BUG]: "
 body:
@@ -7,10 +7,10 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a bug!
- - type: checkboxes
+  - type: checkboxes
     id: game-name
     attributes:
-      label: Game Name:
+      label: Game Name
       options:
         - label: 'The Obsessive Shadow'
         - label: 'OliVr'
@@ -57,7 +57,7 @@ body:
   - type: textarea
     id: additional-context
     attributes:
-      label: Additional Context:
+      label: Any Additional Context/Comments?
       description: If you have any additional context, please let us know here!
   - type: checkboxes
     id: agree-to-terms
