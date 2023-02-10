@@ -48,6 +48,7 @@ body:
     attributes:
       label: Screenshots (if applicable)
       description: If you have any screenshots to provide us, drag and drop them here. Screenshots will help us diagnose the issue faster!
+      placeholder: Drag and drop images into this space to upload them...
   - type: dropdown
     id: consoles
     attributes:
