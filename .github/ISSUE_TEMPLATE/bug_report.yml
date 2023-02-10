@@ -82,5 +82,3 @@ body:
           required: true
         - label: 'I am going to have an amazing rest of my day!'
           required: true
-    validations:
-      required: true;
