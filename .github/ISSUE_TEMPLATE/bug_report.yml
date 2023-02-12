@@ -13,7 +13,7 @@ body:
       label: Game Name
       options:
         - label: 'The Obsessive Shadow'
-        - label: 'OliVr'
+        - label: 'OliVR'
         - label: 'Other'
     validations:
       required: true
